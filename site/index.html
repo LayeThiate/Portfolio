@@ -3,101 +3,155 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Accueil</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div id="bloc_page">
+    <div id="bloc_page" class="container">
+
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projets</a></li>
-                    <li><a href="#">Compétences</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <div id="header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="my-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Home <span class="sr-only">Accueil</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Projets<span class="sr-only">Les
+                                        projets</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Compétences<span class="sr-only">Mes
+                                        compétences</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">A propos<span class="sr-only">A propos de
+                                        moi</span></a>
+                            </li>
+                            <li class="nav-item active ">
+                                <a class="nav-link text-white" href="#">Contacts<span class="sr-only">Contactez
+                                        moi</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </header>
 
-        <section id="home_section">
-            <h1>Abdoulaye DIONGUE</h1>
-            <p>Ingénieur développeur, je possède des Compétences dans le développement web,
-                mobile et logiciel de bureau.
-            </p>
-            <img src="../src/images/photo_profile.png" alt="Photo d'Abdoulaye">
+        <section id="home_section" class="bg-dark text-white container-fluid">
+            <div class="row no-gutters overflow-hidden flex-md-row mb-4 h-md-250">
+                <div id="presentation" class="col-10">
+                    <h1 class="mb-0">Abdoulaye DIONGUE</h1>
+                    <p class="card-text mb-auto">Ingénieur développeur, je possède des Compétences dans le développement
+                        web, mobile et logiciel de bureau.
+                    </p>
+                </div>
+                <div class="col-2 d-none d-lg-block">
+                    <img src="../src/images/photo_profile.png" class="img-thumbnail" alt="Photo d'Abdoulaye">
+                </div>
+            </div>
+
         </section>
 
         <section id="projects_section">
             <div id="projet1">
-                <h1>Projets</h1>
-                <div class="project_preview_image">
-                    <figure class="overlap_image">
-                        <a href="#">
-                            <img src="" alt="Capture du projet URSS">
-                        </a>
-                    </figure>
+                <div class="text-center container-fluid">
+                    <h1>Projets</h1>
+                    <p>Durant mon cursus scolaire, j'ai réalisé des projets sur différents domaines de
+                        l'informatique. Ici, je présente quelques uns de ces projets, pour vois plus de
+                        projets, je vous invite à visiter mon compte github </p>
                 </div>
-                <div class="project_preview_content">
-                    <h3>URSS</h3>
-                    <p>L'Ultra Rapide Support Service une application web permettant à une entreprise de maintenance
-                        d'appareils industriels
-                        de gérer les tickets de maintenance suite à une intervention d'un client </p>
+                <div id="projet1_detail" class="row no-gutters flex-md-row mb-4 h-md-250">
+                    <div class="project_preview_image col-8">
+                        <figure class="overlap_image">
+                            <a href="#">
+                                <img src="" alt="Capture du projet URSS">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="project_preview_content col-4">
+                        <h3>URSS</h3>
+                        <p class="text-justify">L'Ultra Rapide Support Service une application web permettant à une
+                            entreprise de maintenance d'appareils industriels
+                            de gérer les tickets de maintenance suite à une intervention d'un client </p>
+                    </div>
                 </div>
             </div>
 
-            <div id="projet2">
-                <div class="project_preview_image">
-                    <figure class="overlap_image">
-                        <a href="#">
-                            <img src="" alt="Capture du flight live">
-                        </a>
-                    </figure>
-                </div>
-                <div class="project_preview_content">
-                    <h3>Flight live</h3>
-                    <p>Visualisation en 3D les déplacements des avions à partir ou vers un lieu (aéroport, pays).
-                        Récupérer les informations d'un avion. Afficher la trajectoire d'un avion. </p>
+            <div>
+                <div id="projet2" class="row no-gutters flex-md-row mb-4 h-md-250">
+                    <div class="project_preview_content col-4">
+                        <h3>Flight live</h3>
+                        <p class="text-justify">Visualisation en 3D les déplacements des avions à partir ou vers un lieu
+                            (aéroport, pays).
+                            Récupérer les informations d'un avion. Afficher la trajectoire d'un avion. </p>
+                    </div>
+
+                    <div class="project_preview_image col-8">
+                        <figure class="overlap_image">
+                            <a href="#">
+                                <img src="" alt="Capture du flight live">
+                            </a>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="skill_section">
-            <h1>Compétences</h1>
-            <div id="progamming_language_skill">
-                <h3>Langages de programmation</h3>
-                <ul>
-                    <li>Java/JavaEE</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>C#</li>
-                    <li>C/C++</li>
-                    <li>Kotlin</li>
-                    <li>Html/Css</li>
-                </ul>
-            </div>
-
-            <div id="framework_skill">
-                <h3>Framework</h3>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Spring</li>
-                    <li>Angular</li>
-                    <li>React</li>
-                    <li>Hibernate</li>
-                </ul>
-            </div>
-
-            <div id="developement_tools_skill">
-                <h3>Outils de développement</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>Maven</li>
-                    <li>Design Pattern</li>
-                    <li>UML</li>
-                    <li>Algorithmique</li>
-                </ul>
+            <h1 class="text-center">Compétences</h1>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col">
+                    <h3>Langages de programmation</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item fab fa-java">Java</li>
+                        <li class="list-group-item">JavaScript</li>
+                    </ul>
+                    <!-- <ul>
+                        <li class="fab fa-java">Java</li>
+                        <li>Java/JavaEE</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>C/C++</li>
+                        <li>Kotlin</li>
+                        <li>Html/Css</li>
+                    </ul> -->
+                  </div>
+                  <div class="col">
+                    <h3>Framework</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Spring</li>
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Hibernate</li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <h3>Outils de développement</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Maven</li>
+                        <li>Design Pattern</li>
+                        <li>UML</li>
+                        <li>Algorithmique</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
         </section>
 
@@ -116,5 +170,15 @@
 
     </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 
 </html>
