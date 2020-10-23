@@ -65,22 +65,21 @@
         </section>
 
         <section id="projects_section">
-            <div id="projet1">
+            <div id="projet1" class="container">
+
                 <div class="text-center container-fluid">
                     <h1>Projets</h1>
-                    <p>Durant mon cursus scolaire, j'ai réalisé des projets sur différents domaines de
+                    <p class="mx-5">Durant mon cursus scolaire, j'ai réalisé des projets sur différents domaines de
                         l'informatique. Ici, je présente quelques uns de ces projets, pour vois plus de
                         projets, je vous invite à visiter mon compte github </p>
                 </div>
-                <div id="projet1_detail" class="row no-gutters flex-md-row mb-4 h-md-250">
-                    <div class="project_preview_image col-8">
-                        <figure class="overlap_image">
-                            <a href="#">
-                                <img src="" alt="Capture du projet URSS">
-                            </a>
-                        </figure>
+                <div id="projet1_detail" class="row container mb-4 h-md-250">
+                    <div class="project_preview_image col-8 col-md-8 container">
+
+                        <img src="../src/images/liste_tickets.PNG" class="img-fluid rounded mx-auto d-block"
+                            alt="Capture du projet URSS">
                     </div>
-                    <div class="project_preview_content col-4">
+                    <div class="project_preview_content col-md-4">
                         <h3>URSS</h3>
                         <p class="text-justify">L'Ultra Rapide Support Service une application web permettant à une
                             entreprise de maintenance d'appareils industriels
@@ -90,20 +89,17 @@
             </div>
 
             <div>
-                <div id="projet2" class="row no-gutters flex-md-row mb-4 h-md-250">
-                    <div class="project_preview_content col-4">
+                <div id="projet2" class="container row mb-4 h-md-250">
+                    <div class="project_preview_content col-md-4">
                         <h3>Flight live</h3>
                         <p class="text-justify">Visualisation en 3D les déplacements des avions à partir ou vers un lieu
                             (aéroport, pays).
                             Récupérer les informations d'un avion. Afficher la trajectoire d'un avion. </p>
                     </div>
 
-                    <div class="project_preview_image col-8">
-                        <figure class="overlap_image">
-                            <a href="#">
-                                <img src="" alt="Capture du flight live">
-                            </a>
-                        </figure>
+                    <div class="project_preview_image col-8 col-md-8 container">
+                        <img src="../src/images/flight_live.PNG" class="img-fluid rounded mx-auto d-block"
+                            alt="Capture du flight live">
                     </div>
                 </div>
             </div>
@@ -113,60 +109,62 @@
             <h1 class="text-center">Compétences</h1>
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                  <div class="col">
-                    <h3>Langages de programmation</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item fab fa-java">Java</li>
-                        <li class="list-group-item">JavaScript</li>
-                    </ul>
-                    <!-- <ul>
-                        <li class="fab fa-java">Java</li>
-                        <li>Java/JavaEE</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>C#</li>
-                        <li>C/C++</li>
-                        <li>Kotlin</li>
-                        <li>Html/Css</li>
-                    </ul> -->
-                  </div>
-                  <div class="col">
-                    <h3>Framework</h3>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Spring</li>
-                        <li>Angular</li>
-                        <li>React</li>
-                        <li>Hibernate</li>
-                    </ul>
-                  </div>
-                  <div class="col">
-                    <h3>Outils de développement</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>Maven</li>
-                        <li>Design Pattern</li>
-                        <li>UML</li>
-                        <li>Algorithmique</li>
-                    </ul>
-                  </div>
+                    <div class="col">
+                        <h3>Langages de programmation</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item"><span class="java_icon"></span> Java/JavaEE</li>
+                            <li class="list-group-item">JavaScript</li>
+                            <li class="list-group-item">JavaScript</li>
+                            <li class="list-group-item">Python</li>
+                            <li class="list-group-item">C#</li>
+                            <li class="list-group-item">C/C++</li>
+                            <li class="list-group-item">Kotlin</li>
+                            <li class="list-group-item">Html/CSS</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Framework</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Node.js</li>
+                            <li class="list-group-item">Spring</li>
+                            <li class="list-group-item">Angular</li>
+                            <li class="list-group-item">React</li>
+                            <li class="list-group-item">Hibernate</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Outils de développement</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Git</li>
+                            <li class="list-group-item">Maven</li>
+                            <li class="list-group-item">Design Pattern</li>
+                            <li class="list-group-item">UML</li>
+                            <li class="list-group-item">Algorithmique</li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
             </div>
-        </section>
+    </div>
+    </section>
 
-        <section>
-            <h1>A propos de moi</h1>
-            <p>Jeune diplômé d'ingénieur en informatique, je possède des compétences
+    <section>
+        <div class="container">
+            <h1 class="text-center">A propos de moi</h1>
+            <p class="mx-5 text-justify">Jeune diplômé d'ingénieur en informatique, je possède des compétences
                 en informatique particulières en développement d'application.
                 Professionnel énergique, motivé et doté d'un solide esprit d'équipe,
                 je sais gérer les situations de grand stress et atteindre mes objectifs
                 dans les délais.</p>
-        </section>
+        </div>
 
-        <section>
-            <h1>Contactez moi</h1>
-        </section>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center">Contactez moi</h1>
+        </div>
+
+    </section>
 
     </div>
 </body>
