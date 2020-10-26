@@ -2,3 +2,4 @@ maquettes/home_page.bmpr
 
 # Local Netlify folder
 .netlify
+.node_modules
