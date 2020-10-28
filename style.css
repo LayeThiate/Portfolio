@@ -2,10 +2,19 @@ body {
     font-family: "Rubik","Arial",sans-serif;
     font-weight: 300;
     background-color: black;
+    padding-top: 55px;
+}
+
+main {
+    padding-bottom: 0px;
 }
 
 header a:hover {
     background-color: #6c757d;
+}
+
+.navbar-toggler-icon {
+    text-decoration-color : white;
 }
 
 #home_section {
@@ -13,9 +22,6 @@ header a:hover {
     margin-bottom: 1rem;
 }
 
-#presentation {
-    padding-top: 2rem;
-}
 
 .contact_icon {
     color: white;
