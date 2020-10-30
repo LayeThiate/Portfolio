@@ -21,7 +21,7 @@
     <div id="bloc_page" class="container bg-white">
         <header>
             <div id="header">
-                <nav class="navbar navbar-expand-lg navbar-light container bg-dark fixed-top">
+                <nav class="navbar navbar-expand-lg navbar-light container fixed-top">
                     <button class="navbar-toggler navbar-dark container-fluid" data-target="#my-nav"
                         data-toggle="collapse" aria-controls="my-nav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -57,9 +57,10 @@
                 </nav>
             </div>
         </header>
+
         <main>
-            <section id="home_section" class="container bg-dark text-white">
-                <div class="row no-gutters overflow-hidden mb-4 h-md-250">
+            <section id="home_section" class="container text-white">
+                <div class="row no-gutters overflow-hidden mb-4">
                     <div id="presentation" class="col-10">
                         <h1 class="mb-0">Abdoulaye DIONGUE</h1>
                         <p class="card-text mb-auto">Ingénieur développeur, je possède des Compétences dans le
@@ -75,21 +76,21 @@
             </section>
 
             <section id="projects_section">
-                <div id="projet1" class="container">
+                <div class="text-center container-fluid">
+                    <h1>Projets</h1>
+                    <p class="mx-5">Durant mon cursus scolaire, j'ai réalisé des projets sur différents domaines de
+                        l'informatique. Ici, je présente quelques uns de ces projets, pour vois plus de
+                        projets, je vous invite à visiter mon compte github </p>
+                </div>
 
-                    <div class="text-center container-fluid">
-                        <h1>Projets</h1>
-                        <p class="mx-5">Durant mon cursus scolaire, j'ai réalisé des projets sur différents domaines de
-                            l'informatique. Ici, je présente quelques uns de ces projets, pour vois plus de
-                            projets, je vous invite à visiter mon compte github </p>
-                    </div>
-                    <div id="projet1_detail" class="row container mb-4 h-md-250">
+                <div id="projet1" class="container">
+                    <div id="projet1_detail" class="row container text-center mb-4 h-md-250 pt-3 pb-3">
                         <div class="project_preview_image col-8 col-md-8 container">
 
                             <img src="./src/images/liste_tickets.PNG" class="img-fluid rounded mx-auto d-block"
                                 alt="Capture du projet URSS">
                         </div>
-                        <div class="project_preview_content col-md-4">
+                        <div class="project_preview_content col-md-4 mx-auto">
                             <h3>URSS</h3>
                             <p class="text-justify">L'Ultra Rapide Support Service une application web permettant à une
                                 entreprise de maintenance d'appareils industriels
@@ -116,10 +117,10 @@
                 </div>
             </section>
 
-            <section id="skills_section">
-                <h1 class="text-center">Compétences</h1>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <section id="skills_section" class="container">
+                <h1 class="text-center mb-3">Compétences</h1>
+                <div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 skills_list">
                         <div class="col">
                             <h3>Langages de programmation</h3>
                             <ul class="list-group">
@@ -176,12 +177,12 @@
             </section>
 
             <section id="about_section">
-                <div class="container">
+                <div class="container mt-5">
                     <h1 class="text-center">A propos de moi</h1>
                     <p class="mx-5 text-justify">
                         Après avoir eu mon BAC scientifique, j'ai continué mes études en France, licence
-                        informatique que j'ai obtenu en 2017 à l'université Pierre et Marie Curie.
-                        Ensuite, j'ai intégré l'école d'ingénieur Polytech Paris Saclay pour afin d'être polyvalent,
+                        informatique que j'ai obtenue en 2017 à l'université Pierre et Marie Curie.
+                        Ensuite, j'ai intégré l'école d'ingénieur Polytech Paris Saclay afin d'être polyvalent,
                         d'acquérir plus de compétences dans les domaines de l'informatique.
                         J'ai obtenu ce diplôme d'ingénieur en 2020.
                         Professionnel énergique, motivé et doté d'un solide esprit d'équipe,
@@ -192,7 +193,7 @@
             </section>
 
             <section id="contact_section">
-                <div class="container bg-dark text-white">
+                <div class="container bg-dark text-white mt-5 pt-3 pb-3">
                     <h1 class="text-center text-white">Contacts</h1>
                     <h2 class="text-white">Abdoulaye DIONGUE</h2>
                     <div>
@@ -218,9 +219,9 @@
             </section>
         </main>
 
-        <footer class="text-center bg-dark text-white">
+        <!-- <footer class="text-center bg-dark text-white">
             <p><small>&copy;Abdoulaye DIONGUE 2020 - Site personnel</small></p>
-        </footer>
+        </footer> -->
     </div>
 
 </body>

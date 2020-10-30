@@ -5,8 +5,16 @@ body {
     padding-top: 55px;
 }
 
+.navbar {
+    background-color: #124E78;
+}
+
+#bloc_page {
+    margin-bottom: 0;
+}
+
 main {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 header a:hover {
@@ -18,10 +26,28 @@ header a:hover {
 }
 
 #home_section {
+    padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #124E78;
+    
 }
 
+#skills_section {
+    background-color: #124E78;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    color: white;
+
+}
+
+.list-group-item {
+    border: none;
+    color: black
+}
 
 .contact_icon {
     color: white;
